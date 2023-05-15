@@ -1,0 +1,169 @@
+:root {
+    --yellow: rgba(240, 220, 60, 0.8);
+
+    --blue: rgba(60, 150, 240, 0.8);
+
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    display: block;
+}
+
+.conteiner {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: tomato; */
+}
+
+/************ Logo */
+.logo-link {
+    font-size: 20px;
+    line-height: 0px;
+    text-align: ;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.span-logo {
+    color: var(--yellow);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* .span-logo:hover,
+.span-logo:focus {
+    color: var(--blue);
+    background-color: var(--yellow);
+} */
+
+.logo-cap {
+
+    font-family: 'Lemon', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--blue);
+    border-radius: 4px;
+}
+
+.logo-cap:hover,
+.logo-cap:focus {
+    color: var(--yellow);
+    background-color: var(--blue);
+}
+
+.menu {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 80px;
+}
+
+.menu-item {}
+
+.menu-item:not(:last-child) {
+    margin-right: 24px;
+
+}
+
+.nav-link {
+    color: #FFFFFF;
+    padding: 24px 12px;
+    margin-top: 16px;
+    opacity: 0.5;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--yellow);
+    background-color: var(--blue);
+    border-radius: 4px;
+}
+
+.addres {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.addrees-item {}
+
+.mail-box {
+    margin-left: auto
+}
+
+.addres-link.mail {
+    font-size: 40px;
+    color: var(--yellow);
+}
+
+.addres-link.mail:hover,
+.addres-link.mail:focus {
+    color: var(--blue);
+    background-color: var(--yellow);
+    border-radius: 4px;
+
+}
+
+.addres-link.tel {
+    font-size: 40px;
+    color: var(--blue);
+}
+
+.addres-link.tel:hover,
+.addres-link.tel:focus {
+    color: var(--yellow);
+    background-color: var(--blue);
+    border-radius: 4px;
+}
+
+/* ***********HERO */
+.hero-box {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ***************** PRODUKT */
+.produkt-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-list {
+
+    padding-left: 0;
+}
+
+.item:not(:last-child) {
+    margin-right: 40px;
+}
